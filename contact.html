@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — AI-Solutions</title>
+<meta name="description" content="Tell AI-Solutions about your job requirements. No account or password needed.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 26 26"><circle cx="13" cy="4" r="2.4" fill="#6FE7DD"/><circle cx="4" cy="20" r="2.4" fill="#3E6AE1"/><circle cx="22" cy="20" r="2.4" fill="#3E6AE1"/><path d="M13 6.4 4 17.8 M13 6.4 22 17.8 M4 20h18" stroke="#F6F5F0" stroke-width="1.3" fill="none"/></svg>
+      <span>AI-Solutions<small>SUNDERLAND · UK</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="solutions.html">Solutions</a></li>
+      <li><a href="work.html">Our Work</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="articles.html">Articles</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html" class="nav-cta">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="page-head blueprint">
+    <div class="wrap">
+      <p class="eyebrow on-dark">CONTACT US</p>
+      <h1>Tell us what you're trying to solve.</h1>
+      <p>No account, no password — just your details and your job requirements. A member of the team will reply personally.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="grid grid-2" style="gap:48px; align-items:flex-start;">
+
+        <div class="form-panel bracket">
+          <div id="formSuccess" class="form-success" role="status">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1f6b45" stroke-width="2" style="flex-shrink:0;"><path d="M20 6 9 17l-5-5"/></svg>
+            <div>
+              <b>Thanks — your inquiry has been received.</b><br>
+              A member of the AI-Solutions team will get back to you within two working days.
+            </div>
+          </div>
+
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="field">
+                <label for="fullName">Full name</label>
+                <input type="text" id="fullName" name="fullName" autocomplete="name" required>
+                <p class="err">Enter your full name.</p>
+              </div>
+              <div class="field">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+                <p class="err">Enter a valid email address.</p>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="phone">Phone number</label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+                <p class="err">Enter a valid phone number.</p>
+              </div>
+              <div class="field">
+                <label for="company">Company name</label>
+                <input type="text" id="company" name="company" autocomplete="organization" required>
+                <p class="err">Enter your company name.</p>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="country">Country</label>
+                <select id="country" name="country" required>
+                  <option value="">Select country…</option>
+                  <option>United Kingdom</option>
+                  <option>Ireland</option>
+                  <option>United States</option>
+                  <option>Canada</option>
+                  <option>Portugal</option>
+                  <option>Sweden</option>
+                  <option>Kenya</option>
+                  <option>Japan</option>
+                  <option>Australia</option>
+                  <option>Other</option>
+                </select>
+                <p class="err">Select your country.</p>
+              </div>
+              <div class="field">
+                <label for="jobTitle">Job title</label>
+                <input type="text" id="jobTitle" name="jobTitle" autocomplete="organization-title" required>
+                <p class="err">Enter your job title.</p>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="details">Job details</label>
+              <textarea id="details" name="details" placeholder="Tell us about the problem you're trying to solve, your timeline, and anything else that will help us respond usefully." required></textarea>
+              <p class="err">Add a little more detail (15+ characters) so we can route this properly.</p>
+              <p class="form-note">We use this to route your inquiry to the right specialist — the more specific, the faster our response.</p>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center; padding:15px;">Submit inquiry →</button>
+          </form>
+        </div>
+
+        <div>
+          <div class="card" style="margin-bottom:24px;">
+            <span class="tag">No account required</span>
+            <h3>Why we don't ask for a password</h3>
+            <p>You're telling us about a problem, not opening a support ticket. We keep the form short on purpose — name, contact details, and what you need — so a real person can follow up quickly.</p>
+          </div>
+          <div class="card-dark card bracket on-dark">
+            <span class="tag">Visit us</span>
+            <h3 style="color:var(--paper);">Sunderland HQ</h3>
+            <p style="margin-bottom:14px;">Software Centre North<br>Sunderland, SR1 3XY<br>United Kingdom</p>
+            <p style="color:var(--fog);">hello@ai-solutions.example<br>+44 191 555 0142</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="footer-include"></footer>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/footer.js"></script>
+</body>
+</html>

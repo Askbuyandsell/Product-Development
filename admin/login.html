@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Login — AI-Solutions</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="admin-shell blueprint">
+  <div class="admin-card bracket on-dark">
+    <a href="../index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 26 26"><circle cx="13" cy="4" r="2.4" fill="#6FE7DD"/><circle cx="4" cy="20" r="2.4" fill="#3E6AE1"/><circle cx="22" cy="20" r="2.4" fill="#3E6AE1"/><path d="M13 6.4 4 17.8 M13 6.4 22 17.8 M4 20h18" stroke="#F6F5F0" stroke-width="1.3" fill="none"/></svg>
+      <span>AI-Solutions</span>
+    </a>
+    <h1>Admin access</h1>
+    <p class="sub">Sign in to view customer inquiry data.</p>
+
+    <div id="adminError" class="admin-error"></div>
+
+    <form id="adminLoginForm" novalidate>
+      <label for="adminUser">Username</label>
+      <input type="text" id="adminUser" name="adminUser" autocomplete="username" required>
+
+      <label for="adminPassword">Password</label>
+      <input type="password" id="adminPassword" name="adminPassword" autocomplete="current-password" required>
+
+      <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center; padding:14px;">Sign in →</button>
+    </form>
+
+    <p class="admin-hint">DEMO CREDENTIALS<br>username: admin<br>password: Sunderland2026!<br><br>This is a client-side demo gate for assessment purposes. See README.md for the server-side authentication design a production deployment requires.</p>
+  </div>
+</div>
+
+<script src="../js/data.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
